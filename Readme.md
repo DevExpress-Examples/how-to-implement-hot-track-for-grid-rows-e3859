@@ -8,10 +8,4 @@
 <!-- default file list end -->
 # How to implement hot-track for grid rows
 
-
-<p><br />
-<p>This example demonstrates how to implement the hot-track functionality in TableView.</p></p>
-
-<br/>
-
-
+Set the [TableView.HighlightItemOnHover](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TableView.HighlightItemOnHover) property to *true* to highlight the hovered row in GridControl.
