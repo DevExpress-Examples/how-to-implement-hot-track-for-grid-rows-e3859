@@ -16,18 +16,7 @@
                 <dxg:GridColumn FieldName="Date" />
             </dxg:GridControl.Columns>
             <dxg:GridControl.View>
-                <dxg:TableView Name="tableView1">
-                    <dxg:TableView.RowStyle>
-                        <Style TargetType="{x:Type dxg:RowControl}">
-                            <Style.Triggers>
-                                <DataTrigger Binding="{Binding Path=IsMouseOver, RelativeSource={RelativeSource Self}}" Value="True">
-                                    <Setter Property="Background" Value="#6600CC"/>
-                                    <Setter Property="Foreground" Value="White"/>
-                                </DataTrigger>
-                            </Style.Triggers>
-                        </Style>
-                    </dxg:TableView.RowStyle>
-                </dxg:TableView>
+                <dxg:TableView Name="tableView1" HighlightItemOnHover="True"/>
             </dxg:GridControl.View>
         </dxg:GridControl>
     </Grid>
